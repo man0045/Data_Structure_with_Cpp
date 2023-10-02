@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "algorithm": "cpp",
+        "iostream": "cpp"
+    },
+    "editor.fontFamily": "fira code,Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true
+}
