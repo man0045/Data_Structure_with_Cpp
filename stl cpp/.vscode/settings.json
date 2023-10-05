@@ -1,0 +1,13 @@
+{
+ "files.associations": {
+  "set": "cpp",
+  "unordered_map": "cpp",
+  "iosfwd": "cpp",
+  "algorithm": "cpp",
+  "iterator": "cpp",
+  "xhash": "cpp",
+  "xmemory": "cpp",
+  "xtree": "cpp",
+  "xutility": "cpp"
+ }
+}

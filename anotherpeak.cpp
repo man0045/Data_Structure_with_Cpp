@@ -43,6 +43,8 @@ int findPeak(vector<int> &input)
             }
             else
             {
+
+                
                 hi = mid - 1;
             }
         }
