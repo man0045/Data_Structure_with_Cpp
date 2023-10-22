@@ -7,7 +7,10 @@ void hanoi(int n, char a, char b , char c){
  hanoi(n-1,b,a,c);
 }
 int main(){
- int n = 4;
+ int n;
+ cout<<"enter the value of upperlength n"<<endl;
+ cin>>n;
+
  hanoi(n,'A', 'B', 'C');
 
 }
