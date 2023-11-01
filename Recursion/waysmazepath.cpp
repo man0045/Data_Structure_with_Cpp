@@ -6,8 +6,8 @@ void maze(int sr, int sc, int er, int ec, string s){
   cout<<s<<endl;
   return;
  }
- maze(sr, sc+1, er, ec, s+'R');
- maze(sr+1, sc, er,ec, s+'D');
+ maze(sr, sc+1, er, ec, s+'R');//here R represents the it is going rightward
+ maze(sr+1, sc, er,ec, s+'D');//here D represents choosing downward path 
 }
 
 int main(){
