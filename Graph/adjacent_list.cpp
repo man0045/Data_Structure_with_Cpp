@@ -3,7 +3,6 @@
 #include<list>
 
 using namespace std;
-
 vector<list<int> > graph;
 
 int v;
