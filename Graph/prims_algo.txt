@@ -1,0 +1,9 @@
+- DS -vISITED SET, PRIORITY_Queeu<pair>, unordered_map
+
+- insert the pair of <- 1, src> in the PRIORITY_Queeu
+- one by one remove the root element of the PRIORITY_Queeu
+- if the root element is already visited, then we will just continue
+- we mark the root visited
+- we storwe the wt of the pair in the ans
+- update the mapping
+- go to every neighbour of the curr eleemnt, and only add thoose which are non visited and have a better wt preposition
