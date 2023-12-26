@@ -5,8 +5,7 @@
 
 using namespace std;
 
-vector<unordered_map<int, int>> graph;
-
+vector<unordered_map<int, int>>graph;
 int v;
 void add_edge(int src, int dest, int wt, bool bi_dir = true){
  graph[src][dest] = wt;
@@ -23,6 +22,7 @@ void display(){
   }
   cout<<"\n";
  }
+ 
 }
 
 int main(){

@@ -4,7 +4,7 @@ using namespace std;
 void mergeSort(vector<int> &arr1, vector<int> &arr2, vector<int> &arr3){
     int i = 0, j = 0, k = 0;
     while(i < arr1.size() && j < arr2.size()){
-        if(arr1[i] < arr2[j]){
+        if(arr1[i] > arr2[j]){
             arr3[k++] = arr1[i++];
         }
         else{
