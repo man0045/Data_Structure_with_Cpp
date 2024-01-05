@@ -1,8 +1,5 @@
 #include<iostream>
 using namespace std;
-
-//finding the pivot element 
-
 int partition(int arr[], int si, int ei){
  int pivotElement = arr[(si + ei)/2];
  int count = 0;
@@ -25,9 +22,6 @@ int partition(int arr[], int si, int ei){
  }
  return pivotIdx;
 }
-
-//  actual applied here the Quick sort
-
 void quickSort(int arr[],int si,int ei){
  if(si >= ei) return;
 
@@ -47,5 +41,4 @@ int main(){
  for(int i =0; i<n; i++){
   cout<<arr[i]<<" ";
  }
- 
 }
