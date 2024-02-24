@@ -9,7 +9,6 @@ int solve(int val1,int val2,int ch){
     else return val1/val2;
 
 }
-
 int main(){
     string s = "-/*+79483";
     stack<int>val;
