@@ -69,5 +69,7 @@ int main(){
     b->right = e;
     c->left = f;
     c->right = g;
-    levelOrderBfs(a);
+     // levelOrderBfs(a);
+     levelOrder(a);
+
 }
