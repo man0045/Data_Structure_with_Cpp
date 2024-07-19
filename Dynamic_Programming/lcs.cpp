@@ -7,8 +7,8 @@ string ans = "";
 // top-down approach
 int f(string &s1, string &s2, int i, int j, string output){
  if(output.size() > ans.size()) ans = output;
- if(i >= s1.size()) return 0;
- if(j>= s2.size()) return 0;
+ if(i >= s1.size() or j>= s2.size()) return 0;
+ // if() return 0;
  if(dp[i][j] != -1) return dp[i][j];
  if(s1[i] == s2[j]) {
   return dp[i][j] = 1+f(s1,s2,i+1, j+1, output+s1[i]);
@@ -45,8 +45,8 @@ int main(){
  dp.resize(1005, vector<int>(1005,-1));
  int m = s1.size();
  int n = s2.size(); 
- // f(s1,s2, 0, 0,"");
- int ans = lcs(s1,s2,m,n);
- cout<<ans;
+ f(s1,s2, 0, 0,"");;
+ // int ans = lcs(s1,s2,m,n);
+  cout<<ans;
  return 0;
 }
